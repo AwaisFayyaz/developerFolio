@@ -23,23 +23,21 @@ const greeting = {
   username: "Awais Fayyaz",
   title: "Hi all, I'm Awais",
   subTitle: emoji(
-    "A passionate iOS Software Developer 🚀 having an experience of building iOS applications with Objective C, Swift, SwiftUI, UIKit,  some other cool libraries and frameworks."
+    "Enthusiast, Inquisitive, and Self-Driven Software Engineer 🚀 with over 6 Years of Expertise in Crafting Exceptional Experiences on Apple Platforms."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1yJeb2cYvLXwAlXAf7xNLi-v604A-k_0d/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
+  github: "https://github.com/saadpastahttps://github.com/AwaisFayyaz",
+  linkedin: "https://www.linkedin.com/in/awais-fayyaz/",
+  gmail: "awaisfayyaz.dev@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  twitter: "https://twitter.com/abulkhairawais",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
