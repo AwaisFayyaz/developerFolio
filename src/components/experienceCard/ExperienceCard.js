@@ -75,7 +75,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.desc}
         </p>
-        <ul>
+        <ul className="experience-li-items">
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
       </div>

@@ -172,34 +172,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Software Engineer",
+      role: "Senior iOS Engineer",
       company: "NextBridge Ltd",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/logo-nextbridge.jpeg"),
       date: "August 2020 – Present",
       desc: "I am responsible for the design and development of native iOS applications for iPhones and iPad. Also providing support for existing iOS applications ",
       descBullets: [
         "Designed and Developed a native iOS application (Centerpoint Connect) from scratch featuring offline support and published it to the App Store.",
         "Managed a complex code base utilizing advanced coding techniques and patterns, successfully addressed the problems, and eventually released it on the App Store.",
-        "Technologies Used."
+        "Languages/Technologies Used. iOS, Objective C, Swift, Swift UI, Xcode, UIKit, Storyboard, Combine Framework, Core Data, Realm, AVFoundation and many others."
       ]
     },
     {
       role: "iOS Developer",
       company: "Conovo Technologies",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/logo-conovo.jpeg"),
       date: "Sep 2018 – Dec 2019",
-      desc: "My main responsibilities included the design and development of native iOS applications from scratch to publishing on the app store.",
+      desc: "My main responsibilities included the design and development of native iOS applications from scratch to publishing on the app store. Here are some of the highlights:",
       descBullets: [
-        "Designed and Developed a native iOS application (TextBehind) from scratch ¿ and published it to the App Store.",
-        "Managed a complex code base utilizing advanced coding techniques and patterns, successfully addressed the problems, and eventually released it on the App Store."
+        "Created the version 2 of 'TextBehind ' a native iOS application for connecting with incarcerated loved ones. Implemented a drawing pad.",
+        "Upgraded 'Malena' native iOS application to modern Design and added features. Enhanced Google maps experience using clustering.",
+        "Successfully Created a mac OS application in Objective C for trimming silence in audio files."
       ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "iOS Developer",
+      company: "Self Employed/Freelance",
+      companylogo: require("./assets/images/skills.png"),
+      date: "March 2020 – Aug 2020",
+      desc: "I've had the privilege of collaborating with three diverse clients on freelance iOS contracts, where I passionately contributed to the development of these iOS applications.",
+      descBullets: [
+        "MyBusks: I spearheaded the design and development of a seamless native iOS application, ensuring a user-friendly experience from start to finish.",
+        "WifiLink: I enhanced the functionality of this app by incorporating WiFi sharing and speed test features, elevating its usability and performance.",
+        "Call Recorder: Leveraging the powerful Twilio Framework, I crafted an iOS application dedicated to call recording, catering to the needs of users seeking this essential functionality."
+      ]
+    },
+    {
+      role: "iOS Developer",
+      company: "Brainplow",
+      companylogo: require("./assets/images/logo-brainplow.jpeg"),
+      date: "Aug 2017 – Aug 2018",
+      desc: "My professional journey commenced in the dynamic environment of a startup, where I played a pivotal role in conceptualizing, designing, and developing two eCommerce applications.",
+      descBullets: [
+        "SellNRoar: Fueled by my passion for growth, I took on the challenge of crafting this eCommerce platform. Using iOS, Swift, and Xcode, I connected buyers and sellers in the online marketplace, driven by my determination to learn and adapt",
+        "Exploring a range of languages and technologies, I worked with iOS, Swift, Xcode, UIKit, Storyboard, REST APIs, Google Maps, and Firebase to develop solutions that addressed the evolving demands of the eCommerce industry"
+        
+      ]
     }
   ]
 };

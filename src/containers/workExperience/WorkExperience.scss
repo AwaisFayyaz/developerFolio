@@ -21,6 +21,12 @@
   flex: 1;
 }
 
+.experience-li-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {
