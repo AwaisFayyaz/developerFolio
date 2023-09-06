@@ -23,7 +23,7 @@ const greeting = {
   username: "Awais Fayyaz",
   title: "Hi all, I'm Awais",
   subTitle: emoji(
-    "Enthusiast, Inquisitive, and Self-Driven Software Engineer 🚀 with over 6 Years of Expertise in Crafting Exceptional Experiences on Apple Platforms."
+    "Enthusiast, Inquisitive, and Self-Driven Software Engineer 🚀 with over 6 Years of Experience in Crafting Exceptional Experiences on Apple Platforms."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1yJeb2cYvLXwAlXAf7xNLi-v604A-k_0d/view?usp=sharing", // Set to empty to hide the button
@@ -52,7 +52,7 @@ const skillsSection = {
     emoji(
       "⚡ Design and develop an iOS application from scratch to the App Store."
     ),
-    emoji("⚡ Perform updates or add features to an existing iOS application"),
+    emoji("⚡ Perform updates or add features to an existing iOS application."),
     emoji(
       "⚡ Need help with publishing your app? Well, I have got you covered."
     )
@@ -124,23 +124,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "FAST - NUCES",
+      logo: require("./assets/images/logo-fast.png"),
+      subHeader: "Bachelors of Science in Computer Science",
+      duration: "August 2013 - August 2017",
+      desc: "Learned the core of software engineering, including object oriented programming, Data structures and Algorithms, Databases, Advanced Programming etc",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Learned C++, HTML, CSS, PHP, MySQL, Java",
+        "Volunteered for teaching assistant at FAST"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Punjab Group of Colleges",
+      logo: require("./assets/images/logo-punjab-college.png"),
+      subHeader: "Intermediate of Science in Computer Science",
+      duration: "Aug 2009 - Aug 2011",
+      desc: "The intermediate of Computer Science (ICS) program provides general education in Computer Science and software Development",
+      descBullets: ["Math, Physics, Computer Science"]
     }
   ]
 };
@@ -172,22 +172,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Senior Software Engineer",
+      company: "NextBridge Ltd",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "August 2020 – Present",
+      desc: "I am responsible for the design and development of native iOS applications for iPhones and iPad. Also providing support for existing iOS applications ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and Developed a native iOS application (Centerpoint Connect) from scratch featuring offline support and published it to the App Store.",
+        "Managed a complex code base utilizing advanced coding techniques and patterns, successfully addressed the problems, and eventually released it on the App Store.",
+        "Technologies Used."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "iOS Developer",
+      company: "Conovo Technologies",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Sep 2018 – Dec 2019",
+      desc: "My main responsibilities included the design and development of native iOS applications from scratch to publishing on the app store.",
+      descBullets: [
+        "Designed and Developed a native iOS application (TextBehind) from scratch ¿ and published it to the App Store.",
+        "Managed a complex code base utilizing advanced coding techniques and patterns, successfully addressed the problems, and eventually released it on the App Store."
+      ]
     },
     {
       role: "Software Engineer Intern",
