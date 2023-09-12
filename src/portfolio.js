@@ -23,7 +23,7 @@ const greeting = {
   username: "Awais Fayyaz",
   title: "Hi all, I'm Awais",
   subTitle: emoji(
-    "Enthusiast, Inquisitive, and Self-Driven Software Engineer 🚀 with over 6 Years of Experience in Crafting Exceptional Experiences on Apple Platforms."
+    "Enthusiast, Inquisitive, and Self-Driven Software Engineer with over 6 Years of Experience 🚀 in Crafting Exceptional Experiences on Apple Platforms."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1yJeb2cYvLXwAlXAf7xNLi-v604A-k_0d/view?usp=sharing", // Set to empty to hide the button
@@ -166,6 +166,39 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: "Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  projects: [
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Centerpoint Connect",
+      projectDesc: "Roofing iOS application",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Fhetch",
+      projectDesc: "A Chatting application",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Work experience section
 
 const workExperiences = {
@@ -228,39 +261,6 @@ To know how to get github key look at readme.md */
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
