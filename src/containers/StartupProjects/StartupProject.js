@@ -3,6 +3,7 @@ import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import ProjectCarousel from "../projectCarousel/projectCarousel";
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -33,7 +34,8 @@ export default function StartupProject() {
           </p>
 
           <div className="projects-container">
-            {bigProjects.projects.map((project, i) => {
+            <ProjectCarousel/>
+            {/* {bigProjects.projects.map((project, i) => {
               return (
                 <div
                   key={i}
@@ -85,7 +87,7 @@ export default function StartupProject() {
                   </div>
                 </div>
               );
-            })}
+            })} */}
           </div>
         </div>
       </div>

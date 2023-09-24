@@ -12,6 +12,31 @@
   font-weight: 700;
   margin: 15px 0 0 0;
 }
+
+.projects-root {
+  display: flex;
+  align-items: center;
+  height: 520px;
+  
+  .projects-left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-right {
+    width: 70%;
+    display: flex;
+    height: 100%;
+    background: #313131;
+    img {
+      display: flex;
+      object-fit: contain;
+    }
+  }
+}
+
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 17px;
